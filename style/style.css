@@ -1,0 +1,19 @@
+.post
+{
+	background-image: url('file:///D:/bootstrap - 3/pic/7.jpg');
+	background-size: cover;
+	height:700px;
+}
+
+.column {
+		margin :0px;
+	padding:10px;	
+}
+
+.image
+{
+		width: 350px;
+		height: 350px;
+
+}
+
