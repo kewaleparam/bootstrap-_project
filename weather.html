@@ -3,16 +3,16 @@
 <head>
 	<title>World's Weather</title>
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<script type="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 
@@ -23,76 +23,136 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse navbar-static-top" id="my-navbar">				
+	
+	<nav class=" my-navbar navbar navbar-inverse navbar-fixed-top ">				
 		<div class="container">
 			<a href="index.html" class="navbar-brand">World's Weather</a>
-			<div class="navbar-header navbar-right">
+
+			<div class="navbar-header navbar-right ">
 				<ul class="nav navbar-nav">
-				<li><a href="">Home</a></li>
-				<li><a href="weather.html">Weather Report</a></li>
-				<li><a href="#seasons">Seasons</a></li>	
+					<li><a href="index.html" class="nav-link active">Home</a></li>
+			
+					<li><a href="weather.html">Weather Analysis</a></li>
+				
 				</ul>
 			</div>
 		</div>
+		<section>
+			<div class="container" align="right">
+				<form action="" class="form-inline">
+					<div class="form-group">
+						<input type = "text" class="form-control" placeholder="Enter your City">
+						<button type ="" class="btn btn-default">Search</button>
+					</div>
+				</form>
+			</div>
+		</section>
 	</nav>			
 
-	<div class="post jumbotron">
-		<div class="container text-center">
-			<h1>World's Weather</h1>
-			<p style="color: black">Where You Get Your Weather Matters </p>
-		</div>
-	</div>
+
+	<nav class="my-navbar2 navbar navbar-static-top" >				
+		<div class="container">
+			<div class="navbar-header navbar-right ">
+				<h4 class="temp">Noida,India &#9728;</h4>
+				<h4 class="temp">  Fog - 31&#8451</h4>
+			</div>
+		</div>		
+	</nav>	
 
 	<div class="container text-center" >
-	<section>
-		<div class="page-header" id="seasons">
-			<h2>Seasons</h2>
+		<section>
+			
+			<h1>Weather Analysis</h1>
+			<hr>
+			<div class="row">
+				<div class="col-lg-6">
+				<img src="pic/flood.jpg" width="360" height="315">
+			</div>
+
+
+			<div class="col-lg-6">
+				<h1> Eastern Guatemala flood </h1>
+			<p>Eastern Guatemala flood of 1949 was a result of a Pacific hurricane, which created flooding problems that lasted for one month. The disaster killed approximately 40,000 people in Guatemala, and like the rest of these disasters, left many people homeless.</p>
 		</div>
 
-		<div class="row">
-			<div class="col-lg-4">
-				<img src="pic/7.jpg" class="image">
-				<p>Hello</p>
-			</div>
+
+
+
+</section>
+</div>
+<div class="container">
+	<hr>
+</div>
+
+<div class="container text-center" >
+	<section>
 		
+		<div class="row">
+	
 
-		<div class="col-lg-4">
-				<img src="pic/7.jpg" class="image">
-				<p>Hello</p>
+			<div class="col-lg-6">
+				<h1>Volcano Eruption in Sakurajima</h1>
+				<p>Sakurajima was once an island, but a 1914 eruption connected it to mainland Japan by a lava flow. Thousands of small explosions spout from the top of Sakurajima annually, dousing the area in ash and serving as a near-constant reminder for the 700,000 residents of Kagoshima, just miles from the volcano, of the power resting within one of Asia's most serious volcanic threats.</p>
 			</div>
 
-
-		<div class="col-lg-4">
-				<img src="pic/7.jpg" class="image">
-				<p>Hello</p>
+				<div class="row">
+				<div class="col-lg-6">
+				<img src="pic/volcano.jpg" width="360" height="315">
 			</div>
 
 		</section>
 	</div>
 
-<hr>
+<div class="container">
+	<hr>
+</div>
+
+<div class="container text-center" >
+		<section>
+			
+
+			<div class="row">
+				<div class="col-lg-6">
+				<img src="pic/thor.jpg" width="360" height="315">
+			</div>
+
+
+			<div class="col-lg-6">
+				<h1> Daulatpur-Saturia Tornado, Bangladesh</h1>
+			<p>This storm was about a mile wide and traveled ​50 miles through poor areas of the Dhaka region of Bangladesh, which is, along with the U.S. and Canada, one of the countries most frequently hit by tornadoes. The death toll, estimated around 1,300, is in large part to the shoddy construction in the slums that couldn't withstand the brute force of the twister, which also left around 80,000 people homeless. More than 20 villages were leveled and 12,000 people were injured.</p>
+		</div>
+
+
+
+
+</section>
+</div>
+
+
+
+	<hr>
 
 	<div class="container " align="center">
 		<p>World's Weather &copy; 2017</p>
-			<div >
+		<div >
 			<a href="http://www.twitter.com">
-			<i class="fa fa-twitter" style="font-size:24px"></i>
+				<i class="fa fa-twitter" style="font-size:24px"></i>
 			</a>
 
 			<a href="http://www.facebook.com">
-		<i class="fa fa-facebook-official" style="font-size:24px ; color: #0C248F"></i>
+				<i class="fa fa-facebook-official" style="font-size:24px ; color: #0C248F"></i>
 			</a>
 
 			<a href="https://in.linkedin.com/">
-			<i class="fa fa-linkedin-square" style="font-size:24px ; color: blue"></i>
+				<i class="fa fa-linkedin-square" style="font-size:24px ; color: blue"></i>
 			</a>
 
 			<a href="https://www.whatsapp.com/">
-			<i class="fa fa-whatsapp" style="font-size:24px ; color: green"></i>
+				<i class="fa fa-whatsapp" style="font-size:24px ; color: green"></i>
 			</a>
 
-			</div>
 		</div>
+	</div>
 
 </body>
 </html>

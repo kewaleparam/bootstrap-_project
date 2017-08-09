@@ -3,16 +3,16 @@
 <head>
 	<title>World's Weather</title>
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<script type="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 
@@ -20,44 +20,141 @@
 
 
 
+
 </head>
+
 <body>
 
-	<nav class="navbar navbar-inverse navbar-static-top" id="my-navbar">				
+	<nav class=" my-navbar navbar navbar-inverse navbar-fixed-top ">				
 		<div class="container">
 			<a href="index.html" class="navbar-brand">World's Weather</a>
-			<div class="navbar-header navbar-right">
+
+			<div class="navbar-header navbar-right ">
 				<ul class="nav navbar-nav">
-				<li><a href="index.html" class="nav-link active">Home</a></li>
-				<li><a href="weather.html">Weather Report</a></li>
-				<li><a href="#seasons">Seasons</a></li>	
+					<li><a href="index.html" class="nav-link active">Home</a></li>
+					<li><a href="#seasons-video">Weather Report</a></li>
+					<li><a href="weather.html">Weather Analysis</a></li>
+					<li><a href="#map">Locate Yourself</a></li>	
 				</ul>
 			</div>
 		</div>
+		<section>
+			<div class="container" align="right">
+				<form action="" class="form-inline">
+					<div class="form-group">
+						<input type = "text" class="form-control" placeholder="Enter your City">
+						<button type ="" class="btn btn-default">Search</button>
+					</div>
+				</form>
+			</div>
+		</section>
 	</nav>			
 
 
+	<nav class="my-navbar1 navbar navbar-static-top" >				
+		<div class="container">
+		
+			<div class="navbar-header navbar-right ">
+				<h4 class="temp">Noida,India &#9728;</h4>
+				<h4 class="temp">  Fog - 31&#8451</h4>
+			</div>
+			
+		</div>		
+	</nav>	
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="well1 well">
+					<nav class="navbar">				
+						<ul class="nav navbar-nav">
+							<li class="fav"><a>Favourites</a></li>
+							<li class="nav-item"><a href="#seasons-video" class="nav-link">&#10084 Video    &#9474 </a></li>
+							<li class="nav-item"><a href="#seasons-image">&#10084 Images     &#9474 </a></li>
+							<li class="nav-item"><a href="#seasons-video">&#10084 News      &#9474 </a></li>
+							<li class="nav-item"><a href="#map">&#10084 Map </a></li>	
+						</ul>
+					</nav>	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="post jumbotron">
+		<div class="container text-center">
+			<h1>World's Weather</h1>
+			<p style="color: black">Where You Get Your Weather Matters </p>
+		</div>
+	</div>
+
 
 	<div class="container text-center" >
-	<section>
-		<div class="page-header" id="seasons">
-			<h2>Seasons</h2>
+		<section>
+			<div class="page-header" id="seasons-video">
+				<h2>Weather Report - Video</h2>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-4">
+					<iframe width="360" height="315"
+					src="https://www.youtube.com/embed/t2aWyRtnRCg">
+				</iframe> 
+				<h3>Today's National Weather Forcast</h3>
+			</div>
+
+
+			<div class="col-lg-4">
+				<iframe width="360" height="315"
+				src="https://www.youtube.com/embed/8ed69jr7M9M">
+			</iframe> 
+			<h3>Caribbean weather brewing as hurricane season ramps up</h3>
+
 		</div>
 
+
+		<div class="col-lg-4">
+			<iframe width="360" height="315"
+			src="https://www.youtube.com/embed/9giOOgkaJTE">
+		</iframe> 
+		<h3>Franklin about to make landfall </h3>
+	</div>
+
+</section>
+</div>
+
+<div>
+	<div>
+		
+		<h1></h1>
+		<h1></h1>
+		<h1></h1>
+		<h1></h1>
+		
+
+	</div>
+</div>
+
+<div class="container text-center" >
+	<section>
+		<div class="page-header" id="seasons-image">
+				<h2>Weather Report -Image</h2>
+			</div>
+
+		
 		<div class="row">
 			<div class="col-lg-4">
 				<img src="pic/7.jpg" class="image">
 				<p>Hello</p>
 			</div>
-		
 
-		<div class="col-lg-4">
+
+			<div class="col-lg-4">
 				<img src="pic/7.jpg" class="image">
 				<p>Hello</p>
 			</div>
 
 
-		<div class="col-lg-4">
+			<div class="col-lg-4">
 				<img src="pic/7.jpg" class="image">
 				<p>Hello</p>
 			</div>
@@ -65,29 +162,43 @@
 		</section>
 	</div>
 
+
+	<div class="container" align="center">
+		<div class="page-header" id="map">
+			<h1>Locate Yourself Here</h1>
+		</div>
+
+		<div class="col-lg-12">
+			<a href="https://www.google.co.in/maps"><img src="pic/world-map.jpg"></a>
+		</div>
+
+	</div>
+</div>
+
+
 <hr>
 
-	<div class="container " align="center">
-		<p>World's Weather &copy; 2017</p>
-			<div >
-			<a href="http://www.twitter.com">
+<div class="container " align="center">
+	<p>World's Weather &copy; 2017</p>
+	<div >
+		<a href="http://www.twitter.com">
 			<i class="fa fa-twitter" style="font-size:24px"></i>
-			</a>
+		</a>
 
-			<a href="http://www.facebook.com">
-		<i class="fa fa-facebook-official" style="font-size:24px ; color: #0C248F"></i>
-			</a>
+		<a href="http://www.facebook.com">
+			<i class="fa fa-facebook-official" style="font-size:24px ; color: #0C248F"></i>
+		</a>
 
-			<a href="https://in.linkedin.com/">
+		<a href="https://in.linkedin.com/">
 			<i class="fa fa-linkedin-square" style="font-size:24px ; color: blue"></i>
-			</a>
+		</a>
 
-			<a href="https://www.whatsapp.com/">
+		<a href="https://www.whatsapp.com/">
 			<i class="fa fa-whatsapp" style="font-size:24px ; color: green"></i>
-			</a>
+		</a>
 
-			</div>
-		</div>
+	</div>
+</div>
 
 </body>
 </html>
